@@ -1,8 +1,8 @@
 package com.qwplus.quasiworld;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-
 /**
  * @ClassName: HelloController
  * @description
@@ -11,11 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @GetMapping("/helloWorld")
-    public String hello(){
-
-        return "hello";
+    @GetMapping("/md5/{md5}")
+    public String hello(@PathVariable("md5") String md5){
+        return MD5.MD5(md5);
     }
-
-
 }
