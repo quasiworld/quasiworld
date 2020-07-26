@@ -1,4 +1,4 @@
-package com.qwplus.quasiworld;
+package com.qwplus.quasiworld.util;
 
 /**
  * @ClassName: MD5

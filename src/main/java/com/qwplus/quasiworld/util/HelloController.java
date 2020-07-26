@@ -1,4 +1,4 @@
-package com.qwplus.quasiworld;
+package com.qwplus.quasiworld.util;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
