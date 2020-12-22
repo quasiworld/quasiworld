@@ -8,12 +8,12 @@ import org.springframework.context.annotation.ComponentScans;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EntityScan("com.qwplus.quasiworld.model")
-@EnableJpaRepositories(basePackages= {"com.qwplus.quasiworld.business.*.dao"})
-public class QuasiworldApplication {
+/*@EntityScan("com.qwplus.quasiworld.model")
+@EnableJpaRepositories(basePackages= {"com.qwplus.quasiworld.business.*.dao"})*/
+public class QuasiWorldApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QuasiworldApplication.class, args);
+		SpringApplication.run(QuasiWorldApplication.class, args);
 	}
 
 }

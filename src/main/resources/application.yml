@@ -1,12 +1,17 @@
 server:
-  port: 10000
+  port: 9999
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://49.235.109.10:1412/quasi_world
+    url: jdbc:mysql://47.115.3.60/quasi_world?characterEncoding=utf-8
     username: root
-    password: 262342，4191125QW
+    password: 9i7qak%e?Jqw
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+COOKIE:
+  DOMAIN: .quasiworld.top
+  TOKEN:
+    KEY: QW_TOKEN #COOKIE中保存token的key
